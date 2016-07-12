@@ -1,0 +1,36 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{776C14AF-F823-4F54-9C28-A1FF27BE5DCA}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{67A6DBB5-0EA5-4D5C-8FD3-8390A88D6C79}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Audit", "src\Audit\Audit.xproj", "{122645CC-3460-4D40-998C-EB910BF7DEAB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AuditTest", "test\AuditTest\AuditTest.xproj", "{E2B2D359-2B45-4075-A964-EF18FD1A6D34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E5C8BEF7-9474-46B7-9FA9-1FC2DCC8387E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{122645CC-3460-4D40-998C-EB910BF7DEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122645CC-3460-4D40-998C-EB910BF7DEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122645CC-3460-4D40-998C-EB910BF7DEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122645CC-3460-4D40-998C-EB910BF7DEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B2D359-2B45-4075-A964-EF18FD1A6D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B2D359-2B45-4075-A964-EF18FD1A6D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B2D359-2B45-4075-A964-EF18FD1A6D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B2D359-2B45-4075-A964-EF18FD1A6D34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{122645CC-3460-4D40-998C-EB910BF7DEAB} = {67A6DBB5-0EA5-4D5C-8FD3-8390A88D6C79}
+		{E2B2D359-2B45-4075-A964-EF18FD1A6D34} = {E5C8BEF7-9474-46B7-9FA9-1FC2DCC8387E}
+	EndGlobalSection
+EndGlobal
